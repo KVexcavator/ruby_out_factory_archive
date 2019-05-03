@@ -1,0 +1,16 @@
+==========================
+Name: Mike, age: 65
+Name: Bro, age: 20
+Name: Julia, age: 25
+Name: Walt, age: 50
+Name: Bony, age: 33
+Name: Rlaid, age: 25
+===========================
+==========================
+Name: Mike, age: 65
+Name: Bro, age: 20
+Name: Julia, age: 25
+Name: Walt, age: 50
+Name: Bony, age: 33
+Name: Rlaid, age: 25
+===========================

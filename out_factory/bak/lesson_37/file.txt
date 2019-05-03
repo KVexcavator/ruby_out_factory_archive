@@ -1,0 +1,9 @@
+In this example, the object connection is the receiver, download_mp3 is the name of the
+method, the string "jitterbug" is the parameter, and the stuff between the braces is the associated
+block. During this method call, Ruby first sets self to the receiver and then invokes
+the method in that object: For class and module methods, the receiver will be the class or
+module name.
+If the splat is not the last lvalue, then Ruby ensures that the lvalues that follow it will all
+receive values from rvalues at the end of the right side of the assignment—the splat lvalue
+will soak up only enough rvalues to leave one for each of the remaining lvalues. (OK, that’s
+a pretty tortuous explanation—some examples will help.)

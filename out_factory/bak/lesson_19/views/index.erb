@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sinatra</title>
+</head>
+<body>
+	<p><a href="/contacts">Contact</a></p>
+	<p><a href="/faq">FAQ</a></p>
+	<p><a href="/something">something</a></p>
+	<p>You typed login: <%= @login %></p>
+	<p>You typed password: <%= @password %></p>
+	<p><%= @message %></p>
+	<form action="/" method="POST" >
+			<input type="text" name="aaa" placeholder="LOGIN">
+			<input type="password" name="ppp" placeholder="PASSWORD">
+		<input type="submit" value="Send">
+	</form>
+</body>
+</html>
